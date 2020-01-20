@@ -13,7 +13,7 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
-    "parser": "babel/eslint",
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -30,7 +30,7 @@ module.exports = {
         "prettier/prettier": "error",
         "react/jsx-filename-extension": [
             "warn",
-            { extensions: [".jsx", ".js" ] }
+            { extensions: [".jsx", ".js"] }
         ],
         "import/prefer-default-export": "off"
     }

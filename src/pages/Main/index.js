@@ -1,7 +1,15 @@
 import React from 'react';
 
-import { Title } from './styles';
+import Sidebar from './Sidebar';
+import Content from './Content';
+
+// import { Title } from './styles';
 
 export default function Main(){
-    return <Title>Página inicial</Title>;
+    return (
+        <>
+            <Sidebar></Sidebar>
+            <Content></Content>
+        </>
+    );
 };
